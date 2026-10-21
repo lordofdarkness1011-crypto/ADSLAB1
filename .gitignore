@@ -1,0 +1,31 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Carpetas temporales y desechables
+desechables/
+
+# Python bytecode y cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelos generados
+models/*.joblib
+!models/.gitkeep
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variables de entorno
+.env
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
